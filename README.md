@@ -1,5 +1,9 @@
 # mpx-router-patch
-> 在 mpx 中使用 vue-router 兼容的路由写法
+> 在 mpx 中使用 vue-router 兼容的路由写法：
+
+## TODO
+1. 支持多平台小程序（目前仅支持微信小程序）
+2. 发布 npm 包（注意：暂未发布 npm 包，如果想要使用，请直接下载复制源码）
 
 ## 安装
 
