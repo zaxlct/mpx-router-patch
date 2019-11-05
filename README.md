@@ -1,8 +1,5 @@
-# mpvue-router-patch
-> 在 mpvue 中使用 vue-router 兼容的路由写法
-
-[![npm package](https://img.shields.io/npm/v/mpvue-router-patch.svg)](https://npmjs.org/package/mpvue-router-patch)
-[![npm downloads](http://img.shields.io/npm/dm/mpvue-router-patch.svg)](https://npmjs.org/package/mpvue-router-patch)
+# mpx-router-patch
+> 在 mpx 中使用 vue-router 兼容的路由写法
 
 ## 安装
 
@@ -14,10 +11,10 @@ npm i mpvue-router-patch
 
 ``` js
 // main.js
-import Vue from 'vue'
-import MpvueRouterPatch from 'mpvue-router-patch'
+import mpx from '@mpxjs/core'
+import MpxRouterPatch from 'mpx-router-patch'
 
-Vue.use(MpvueRouterPatch)
+mpx.use(MpvueRouterPatch)
 ```
 
 ## API
@@ -26,19 +23,7 @@ Vue.use(MpvueRouterPatch)
 
 ### Router 实例
 
-#### 属性
-
-* $router.app
-
-当前页面的 Vue 实例
-
-* $router.mode
-
-路由使用的模式，固定值 `history`
-
-* $router.currentRoute
-
-当前路由对应的路由信息对象，等价于 $route
+#### 属性不支持
 
 #### 方法
 
